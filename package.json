@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,10 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   }
 }
